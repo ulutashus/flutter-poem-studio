@@ -1,0 +1,40 @@
+{
+  "@@locale": "en",
+  "appTitle": "Poem Studio",
+  "poemListTitle": "Poems",
+  "searchHint": "Search by title, text or number",
+  "clearTooltip": "Clear",
+  "textSizeTitle": "Text size",
+  "settingsTitle": "Settings",
+  "languageTitle": "Language",
+  "menuTooltip": "Menu",
+  "poemDetailTitle": "Poem #{order}",
+  "@poemDetailTitle": {
+    "placeholders": {
+      "order": {
+        "type": "int"
+      }
+    }
+  },
+  "previousButton": "Previous",
+  "nextButton": "Next",
+  "shareAsImage": "Share as image",
+  "shareAsText": "Share as text",
+  "editAction": "Edit",
+  "editTitleLabel": "Title",
+  "editVerseLabel": "Verses",
+  "saveButton": "Save",
+  "discardButton": "Discard",
+  "saveChangesPrompt": "Save your changes?",
+  "closeButton": "Close",
+  "retryButton": "Retry",
+  "noResults": "No results found.",
+  "syncingTooltip": "Syncing edits",
+  "syncFailedTooltip": "Sync failed. Tap to retry.",
+  "errorNetwork": "No connection. Check your network and try again.",
+  "errorServer": "Something went wrong on the server.",
+  "errorUnauthorized": "The server rejected the request.",
+  "errorNotFound": "This poem could not be found.",
+  "errorStorage": "Could not read or write data on this device.",
+  "errorValidation": "Title and verses cannot be empty."
+}

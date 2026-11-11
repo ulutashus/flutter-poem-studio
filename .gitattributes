@@ -1,0 +1,4 @@
+web/drift_worker.js linguist-generated linguist-vendored
+*.g.dart linguist-generated
+*.config.dart linguist-generated
+lib/core/locale/l10n/generated/** linguist-generated

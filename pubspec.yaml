@@ -1,0 +1,68 @@
+name: poem_studio
+description: A small poem studio app built to practice enterprise patterns in Flutter.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.0
+  flutter: '>=3.47.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^2.0.0
+  flutter_bloc: ^9.1.1
+  dio: ^5.11.1
+  retrofit: ^4.5.0
+  go_router: ^18.1.4
+  get_it: ^9.3.0
+  injectable: ^3.0.0
+  equatable: ^3.0.0
+  drift: ^2.25.0
+  drift_flutter: ^0.3.1
+  stream_transform: ^2.1.2
+  share_plus: ^13.3.1
+  shared_preferences: ^2.5.3
+  screenshot: ^3.0.0
+  json_annotation: ^4.9.0
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  bloc_concurrency: ^0.3.0
+  clock: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  build_runner: ^2.5.4
+  retrofit_generator: ^10.3.3
+  injectable_generator: ^3.1.3
+  mocktail: ^1.0.5
+  bloc_test: ^10.0.0
+  drift_dev: ^2.25.0
+  flutter_launcher_icons: ^0.14.4
+  json_serializable: ^6.9.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/data/poems.json
+    - assets/icon/app_icon.png
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  remove_alpha_ios: true
+  background_color_ios: "#FFF8E1"
+  adaptive_icon_background: "#FFF8E1"
+  adaptive_icon_foreground: "assets/icon/app_icon.png"
+  web:
+    generate: true
+    image_path: "assets/icon/app_icon.png"
+    background_color: "#FCFCDC"
+    theme_color: "#C5E597"

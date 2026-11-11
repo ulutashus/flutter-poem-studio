@@ -1,0 +1,15 @@
+name: poem_studio_mock_server
+description: In-memory fake backend for the Poem Studio edit sync API.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  shelf: ^1.4.1
+  shelf_router: ^1.1.4
+
+dev_dependencies:
+  lints: ^6.1.0
+  test: ^1.25.0

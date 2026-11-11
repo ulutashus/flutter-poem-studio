@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "poem-studio",
+      "request": "launch",
+      "type": "dart",
+      "args": ["--dart-define-from-file=dart_defines.json"]
+    },
+    {
+      "name": "poem-studio (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "args": ["--dart-define-from-file=dart_defines.json"]
+    },
+    {
+      "name": "mock server",
+      "request": "launch",
+      "type": "dart",
+      "program": "mock_server/bin/server.dart",
+      "cwd": "mock_server"
+    }
+  ]
+}
